@@ -1,0 +1,138 @@
+      /* FILE CREATED V2.0.3 */
+      #system-buttons {margin-top:0;}
+       #system-info-textarea {
+          width: 800px;
+          height: 400px;
+          font-family: Menlo,Monaco,monospace;
+          background: 0 0;
+          white-space: pre;
+          overflow: auto;
+          display: block;
+      }
+      .green {
+        color: green;
+        font-size: 18px;
+      }
+      .red {
+        color: red;
+        font-size: 14px;
+        background-color: rgb(255, 235, 232) !important;
+        margin: 5px 0 15px;
+        border: 1px solid red;
+        border-left: 4px solid red;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+        padding: 10px 12px 20px 12px;
+      } 
+      .yellow {
+          color: black;
+          font-size: 14px;
+          margin: 5px 0 15px;
+          border: 4px solid yellow;
+          border-left: 4px solid yellow;
+          box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+          padding: 10px 12px 20px 12px;
+          background-color: RGB(255, 255, 180) !important;
+      }
+      .smallGreyText {
+          color: gray;
+          font-size: 12px;
+      }              
+       .sub-label {
+        color: grey;
+        font-size: 11px !important;
+      }  
+       .grey {
+        color: grey;
+        font-size: 11px !important;
+      } 
+       .black {
+        color: black;
+        font-size: 11px !important;
+      }
+      .hidden-button {
+        color:rgb(241, 241, 241) !important;
+        margin-left: 50px;
+      }
+      .hidden-button:hover {
+        color:white;
+      }
+      #activate-button, #deactivate-button {
+        font-size:18px;
+        background-color:white;
+      }      
+      #reset-button .system-buttons-h4 {
+        color:#F1F1F1; /*matches background*/
+      }
+      #reset-button .system-buttons-h4:hover {
+        color:#gray; 
+      }      
+      #reset-button .nuke_buttons, 
+      #reset-button input{
+        color:#F1F1F1; /*matches background*/
+        box-sizing: none;
+        border: none;
+        float: right;
+        margin-right:200px;        
+      }  
+      #reset-button .nuke_buttons:hover,
+      #reset-button input :hover {
+        color:red;
+        box-sizing: border-box; 
+        border: 1px solid black;
+      }
+      #show-info-button {margin-left:20px; padding:10px; text-decoration::none; border:1px solid gray; cursor: pointer; cursor: hand;  font-weight:bold; font-size:16px;}
+      #show-info-button:hover {color:red;}
+      #show-licensing-info {display:none} 
+      #license-status-msg a {padding:5px; border:1px solid gray;}  
+      
+      /*Hide/show tips*/
+      .title-anchor, .example-details, .pricing-deal-example, #bufferP {
+          clear: left;
+      }
+      .example-details {
+        font-size: 14px !important; /*v2.0.0.5*/
+        margin-left: 5%;
+        line-height: 22px;
+        border: 1px solid green;
+        padding: 0px 20px 20px 20px;
+        background-color: white;
+        border-radius: 5px; 
+        margin-bottom: 15px;        
+      }
+      .pricing-deal-example {
+        margin-left: 2%;
+      }
+      .title-anchor-plus, .title-anchor-minus, .example-details {
+          float: left;          
+      }
+      .title-anchor-plus, .title-anchor-minus {
+          text-decoration: none !important;
+          font-weight: bold;
+      }
+      .title-anchor-plus:hover, .title-anchor-minus:hover {
+          text-decoration: underline !important;
+      }
+      .title-text, .example-details {
+        font-size: 16px;
+      }
+      .title-anchor-minus {
+          display: none;
+      } 
+      .plus-icon, .minus-icon {
+          background-color: #82C201;
+          border-radius: 3px 3px 3px 3px;
+          color: #FFFFFF;
+          font-size: 14px;
+          font-weight: bold;
+          margin-left: 10px;
+          margin-top: 3px;
+          opacity: 0.6;
+          padding: 0 5px;
+          text-decoration: none;
+      }
+      .minus-icon {
+          font-size: 18px;
+      }  
+
+      .separator {color:#ccc;}       /*v2.0.0.5 added*/ 
+      h2 {color:#000 !important;}       /*v2.0.3 added*/   

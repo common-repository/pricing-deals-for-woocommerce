@@ -1,0 +1,21 @@
+ 
+           
+           /*
+           *** -----------------------------------------------------
+           v2.0.3 NEW FILE
+           *** -----------------------------------------------------
+                   .varName_catalog_info {
+                    float: left;
+                    color:#666;font-size: 13px;margin-left: 15%;font-weight: normal;width: 80%;} 
+                  .varName_addl_info-line1,
+                  .varName_addl_info-line2,
+                  .varName_addl_info-line3,
+                  .varName_addl_info-line4,
+                  .varName_addl_info-line5 
+                    {float:left;} 
+                  .varName_addl_info-line2
+                    {margin-top:8px;}          
+                  .varName_addl_info-line3,
+                  .varName_addl_info-line4,
+                  .varName_addl_info-line5 
+                    {margin-top:5px;}
